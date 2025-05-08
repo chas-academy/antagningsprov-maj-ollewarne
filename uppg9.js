@@ -11,7 +11,7 @@ function uppg9 (){
 
     function oddOrEven(array){
         for (i of array){
-            if (i % 2 == 0){
+            if (i % 2 === 0){
                 console.log(i, "jämt")
             } else {
                 console.log(i, "udda")
